@@ -28,11 +28,12 @@ When someone registers on your WordPress/w4os grid but never creates an avatar, 
 - **Bot farm detection** — Automatically identifies suspect email domains with multiple no-avatar accounts
 - **Trusted domain management** — Pre-populated with 38 legitimate providers (Gmail, Yahoo, Hotmail, Proton, iCloud, AOL and more) so real users never get flagged as bots
 - **Color-coded review screen** — Red = disabled, orange = queued, yellow = pending. Spot the obvious ones instantly
-- **Bulk select tools** — Select All, Select Queued, Select Disabled, Deselect All
+- **Bulk select tools** — Select All, Select Queued, Select Disabled*, Deselect All
 - **Email tracking** — D30 and D59 indicators show exactly which emails have been sent — never sent twice
 - **Daily WP-Cron scan** — Runs automatically every day. Manual scan button available for immediate runs
 - **Admin/Editor exempt** — Users with `edit_posts` capability are never flagged, ever
 - **Clean deactivation** — Deactivating removes the cron schedule cleanly
+- (Disabled Accounts Requires Disable User Log-In Plug-In https://wordpress.org/plugins/disable-user-login) 
 
 ---
 
@@ -40,6 +41,7 @@ When someone registers on your WordPress/w4os grid but never creates an avatar, 
 
 - WordPress 5.0+
 - [w4os — OpenSimulator Web Interface](https://github.com/GuduleLapointe/w4os) installed and configured
+- (Disabled Accounts Requires Disable User Log-In Plug-In https://wordpress.org/plugins/disable-user-login) Optional!
 - An OpenSimulator grid with WordPress-based registration
 - PHP 7.4+
 
@@ -133,7 +135,7 @@ See [CHANGELOG.md](CHANGELOG.md)
 
 ## 📄 License
 
-GNU General Public License v2.0 — see [LICENSE](LICENSE)
+GNU General Public License v3.0 — see [LICENSE](LICENSE)
 
 ---
 
